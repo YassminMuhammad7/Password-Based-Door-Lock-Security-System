@@ -1,6 +1,6 @@
-•	Description: Password Based Door Lock Security System based on 2 ATmega32, the first connects with the “HMI” to interface with user, the second controls and saves and gives instructions to other components.
+-	Description: Password Based Door Lock Security System based on 2 ATmega32, the first connects with the “HMI” to interface with user, the second controls and saves and gives instructions to other components.
 
-•	Operating mechanism:
+-	Operating mechanism:
 
 -	At first, the user should enter the desired user 2 times to create his password. If the entered passwords are matched, the UART of the 1st microcontroller send the password to the UART of 2nd microcontroller and then the EEPROM will save it which this EEPROM is attached with the 2nd microcontroller. If the entered passwords aren’t matched, the user should repeat this operation again until he entered 2 passwords which are matched. (This is the 1st operation).
 
@@ -10,4 +10,4 @@
 
 -	If the user chooses to change his password, the user will enter his password again and then the user will repeat all the 1st operation again.
 
-•	Drivers designed and implemented for the project: Keypad, LCD, UART, Timer, DC Motor, I2C and External EEPROM.
+-	Drivers designed and implemented for the project: Keypad, LCD, UART, Timer, DC Motor, I2C and External EEPROM.
