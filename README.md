@@ -1,6 +1,6 @@
 -	Description:
 
- Password Based Door Lock Security System based on 2 ATmega32, the first connects with the “HMI” to interface with user, the second controls and saves and gives instructions to other components.
+         Password Based Door Lock Security System based on 2 ATmega32, the first connects with the “HMI” to interface with user, the second controls and saves and gives instructions to other components.
 
 -	Operating mechanism:
 
@@ -14,4 +14,4 @@
 
 -  Drivers designed and implemented for the project:
 
-  Keypad, LCD, UART, Timer, DC Motor, I2C and External EEPROM.
+          Keypad, LCD, UART, Timer, DC Motor, I2C and External EEPROM.
