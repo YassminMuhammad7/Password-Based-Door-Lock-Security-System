@@ -14,5 +14,6 @@
 
 
 -  Drivers designed and implemented for the project:
+
      Timer, UART, I2C, External EEPROM, Keypad, LCD and DC Motor.
      Drivers are implemented using configuration technique "Static and Dynamic" to support different modes in Atmega16. Different design methods are used like interrupts, call backs, tight and periodic polling.
