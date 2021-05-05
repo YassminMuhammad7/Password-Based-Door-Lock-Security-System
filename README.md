@@ -13,5 +13,5 @@
 	If the user chooses to change his password, the user will enter his password again and then the user will repeat all the 1st operation again.
 
 -  Drivers designed and implemented for the project:
-
-          Keypad, LCD, UART, Timer, DC Motor, I2C and External EEPROM.
+  Timer, UART, I2C, External EEPROM, Keypad, LCD and DC Motor.
+  Drivers are implemented using configuration technique "Static and Dynamic" to support different modes in Atmega16. Different design methods are used like interrupts, call backs, tight and periodic polling.
